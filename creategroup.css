@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+
+
+
+
+
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;   
+}
+
+body{
+    background-image:url(bg2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+
+header{
+    position: fixed;
+    top:0; left: 0; right:0; 
+    background: rgba(246, 248, 214, 0.736);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px; 
+  }
+
+
+h1{
+  
+    color: rgb(0, 0, 0);
+    font-family: 'Satisfy','Nunito','Varela Round', sans-serif;
+    font-size: 50px;
+    padding-left: 6px;
+}
+
+#eofevent{
+    color: rgba(46, 161, 237, 0.923);
+}
+
+#pofplanner{
+    color: rgba(217, 70, 188, 0.858);
+}
+
+header .navbar a{
+
+    color:rgb(5, 5, 5);
+    font-size:25px;
+    margin:35px;
+    font-family:'Nunito','Varela Round', sans-serif ;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+header .navbar a:hover{
+    color:rgb(222, 60, 122);
+  }
+
+
+
+  header .navbar .log-out-button{
+    
+    font-family:'Nunito','Varela Round', sans-serif ;
+    font-weight: 700;
+    font-size: 25px;
+    width: 140px;
+    height: 40px;
+    position: relative;
+    background: rgba(255, 255, 255, 0);
+ 
+  }
+
+
+.search-btn{
+    font-size:28px;
+    background: none;
+    cursor: pointer;
+}
+
+header .search-btn i:hover{
+  cursor: pointer;
+  color:rgb(222, 60, 122); 
+}
+  
+header .search-bar-container{
+    width:250px;
+    height: 32px;
+    padding:5px;
+    border: 1px solid rgba(46, 46, 46, 0.849);
+    font-size: 18px;
+    font-family:'Nunito','Varela Round', sans-serif  ;
+    font-weight: 700;
+    color: black;
+    border-radius: 8px;
+}
+  
+.create-group-container{
+    font-family: 'Nunito','Varela Round', sans-serif;
+    
+    position:relative;
+    top: 60px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+h2{
+    margin: 6px;
+   
+}
+h3{
+    font-size: 20px;
+    margin: 6px;
+}
+
+.create-group-container form{
+    font-size: 20px;
+    line-height: 27px;
+    margin: 60px;
+    padding: 15px  20px;
+    border: 2px solid rgba(13, 13, 13, 0.804);
+    border-radius: 10px;
+    background:rgba(255, 255, 255, 0.33);
+    width: 400px;
+    height: 540px;
+    text-align: center;
+    box-shadow: 3px 4.5px rgba(51, 51, 51, 0.538);
+}
+
+.create-group-container form p{
+    font-weight: 605;
+    text-align: left;
+    position: relative;
+    top: 15px;
+}
+
+    
+.box{
+    border: 2px solid rgb(76, 76, 76);
+    border-radius: 20px;
+    margin: 3px;
+    height: 40px;
+    width: 340px;
+    padding-left: 25px;
+    padding-right: 15px;
+    position: relative;
+    top: 15px;
+    font-size: 17px;
+    font-family:'Nunito','Varela Round', sans-serif ;
+    font-weight: 600;
+    background-color: rgba(254, 254, 254, 0.674);
+    
+}
+.creategroup-button{
+    border-radius: 19px;
+    border:1.5px solid rgb(21, 21, 20);
+    width: 100px;
+    height: 40px;
+    margin: 18px;
+    font-weight: 580;
+    box-shadow: 1.5px 2px rgba(43, 44, 44, 0.549);
+    background: rgba(70, 142, 164, 0.329);
+}
+ .date .box{
+     font-size: 11.5px;
+ }

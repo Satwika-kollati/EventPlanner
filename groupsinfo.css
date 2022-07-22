@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;821;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@500;700&display=swap");
+
+
+
+
+
+
+
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;   
+}
+
+body{
+    background-image:url(bg2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+h1{
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Alegreya Sans SC','Nunito','Varela Round', sans-serif;
+    text-transform: capitalize;
+    font-size: 75px;
+    padding-top: 20px;
+
+}
+
+h3{
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Montserrat','Nunito','Varela Round', sans-serif;
+    text-transform: capitalize;
+    font-size: 35px;
+    padding-top: 20px;
+}
+
+p{
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    list-style:  none;
+    width: 600px;
+    margin: auto;
+    margin-top: 15px;
+    color: rgb(0, 0, 0);
+    font-family: 'Alegreya Sans SC','Nunito','Varela Round', sans-serif;
+    font-size: 25px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.714);
+    box-shadow: 2.5px 4px rgba(100, 100, 100, 0.711);
+    border-radius: 0px 40px 0px 40px;
+}
+
+.countdowntimer{
+
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+}
+.countdowntimer .box{
+   
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    margin: auto;
+    border-radius: 6px;
+    box-shadow: 2.5px 3px rgba(103, 103, 103, 0.844);
+
+}
+ 
+.countdowntimer .time{
+    font-size: 25px;
+    font-family: 'Nunito','Varela Round', sans-serif;
+    font-weight: 800;
+}
+.countdowntimer .text{
+    font-size: 25px;
+    font-family: 'Nunito','Varela Round', sans-serif;
+    font-weight: 700;
+}
+
+.back{
+    
+    font-family: 'Nunito','Varela Round', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    position: absolute;
+    margin-left: 640px;
+    margin-top: 150px;
+}

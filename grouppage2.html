@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-firestore.js"></script>
+    <link rel="stylesheet" href="grouppage2.css">
+    <title>Event Planner</title>
+</head>
+<body>
+    <h1 id="title"></h1>
+    
+  
+        <div class="group-data">
+            <h3>GROUP INFO</h3>
+            <h2 id="group-info"></h2>
+        </div>
+        
+        <div id="countdowntimer" class="countdowntimer">
+            <div class="box">
+              <span id="days" class="time"></span>
+              <div class="text">Days</div>
+            </div>
+
+            <div class="box">
+                <span id="hours" class="time"></span>
+              <div class="text">Hours</div>
+            </div>
+
+            <div class="box">
+              <span id="minutes" class="time"></span>
+              <div class="text">Minutes</div>
+            </div>
+
+            <div class="box">
+              <span id="seconds" class="time"></span>
+              <div class="text">Seconds</div>
+            </div>
+        </div>
+
+        <div class="members-info">
+            <h3>MEMBERS OF THE GROUP</h3>
+            <h2 id="memberslist"></h2>
+        </div>
+        
+        <div class="back"><a href="homepage.html">Back to Home page</a></div>  
+        
+            
+      
+    </body>
+
+    <script src="grouppage2.js"></script>
+  
+
+</html>

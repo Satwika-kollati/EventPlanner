@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;821;900&display=swap");
+
+
+
+
+
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;   
+}
+
+body{
+    background-image:url(bg2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+
+header{
+    position: fixed;
+    top:0; left: 0; right:0; 
+    background: rgba(246, 248, 214, 0.736);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px; 
+  }
+
+h1{
+  
+    color: rgb(0, 0, 0);
+    font-family: 'Satisfy','Nunito','Varela Round', sans-serif;
+    font-size: 50px;
+    padding-left: 6px;
+}
+
+#eofevent{
+    color: rgba(46, 161, 237, 0.923);
+}
+
+#pofplanner{
+    color: rgba(217, 70, 188, 0.858);
+}
+
+header .navbar a{
+
+    color:rgb(5, 5, 5);
+    font-size:25px;
+    margin:35px;
+    font-family:'Nunito','Varela Round', sans-serif ;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+header .navbar a:hover{
+    color:rgb(222, 60, 122);
+  }
+
+  header .navbar .log-out-button{
+    
+    font-family:'Nunito','Varela Round', sans-serif ;
+    font-weight: 700;
+    font-size: 25px;
+    width: 140px;
+    height: 40px;
+    position: relative;
+    background: rgba(255, 255, 255, 0);
+ 
+  }
+
+
+.search-btn{
+    font-size:28px;
+    background: none;
+    cursor: pointer;
+}
+
+header .search-btn i:hover{
+  cursor: pointer;
+  color:rgb(222, 60, 122); 
+}
+  
+header .search-bar-container{
+    width:250px;
+    height: 32px;
+    padding:5px;
+    border: 1px solid rgba(46, 46, 46, 0.849);
+    font-size: 18px;
+    font-family:'Nunito','Varela Round', sans-serif  ;
+    font-weight: 700;
+    color: black;
+    border-radius: 8px;
+}
+
+.photo-boxes{
+    position: relative;
+    top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .photo-boxes .box{
+    flex:1 1 20px;
+    border-radius: 20px;
+    padding: 15px;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.863);
+  }
+  
+  .photo-boxes .box img{
+    height:280px;
+    width:100%;
+    object-fit: cover;
+  }
+  
+  .photo-boxes .content h3{
+   margin-top: 12px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+  
+  }
+  
+  .event {
+    animation: color-animation 4s linear infinite;
+  }
+  
+  .event1 {
+    --color-1: #ed8a59;
+    --color-2: #378cb0;
+    --color-3: #e683b3;
+    
+  }
+  
+  .event2 {
+    --color-1: #3ea79a;
+    --color-2: #cc92e5;
+    --color-3: #cfb42d;
+    
+  }
+  
+  .event3 {
+    --color-1: #488ddc;
+    --color-2: #84c271;
+    --color-3: #d94a4a;
+  }
+  
+  .event4 {
+    --color-1: #a36edf;
+    --color-2: #eb7834;
+    --color-3: #df6fce;
+  }
+  
+  @keyframes color-animation {
+    0%    {color: var(--color-1)}
+    32%   {color: var(--color-1)}
+    33%   {color: var(--color-2)}
+    65%   {color: var(--color-2)}
+    66%   {color: var(--color-3)}
+    99%   {color: var(--color-3)}
+    100%  {color: var(--color-1)}
+  }
+  
+  
+  
+ 

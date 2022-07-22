@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-firestore.js"></script>
+    <link rel="stylesheet" href="contact.css">
+    <title>Event Planner</title>
+</head>
+<body>
+    <header>
+       
+       <h1 class="logo"><span id="eofevent">E</span>vent<span id="pofplanner"> P</span>lanner</h1>
+    
+        <div class="navbar">
+            <a href="homepage.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="groupsinfo.html">Group Page</a>
+            <button class="log-out-button" type="button" title="signOut" onclick="signOut()">Log Out</button>
+        </div>
+    
+        <form action="search-bar" class="search-bar">
+            <input type="text" class="search-bar-container" placeholder="Search Here..." name="search">
+            <button class="search-btn"type="submit"><i class="fa fa-search" ></i></button>
+        </form>
+ 
+    </header>
+    
+
+    <div class="contact-info">
+    
+         <h2>CONTACT INFO</h2>
+         <h3>For any kind of inconvenience or doubts you can contact us at : </h3>
+         <p><i class="fa fa-phone"></i> +919988776655</p>
+         <p><i class="fa fa-envelope-o"></i> eventplanner@gmail.com</p>
+
+    </div>
+<br>
+    <div class="feedback">
+        <h2>WE VALUE YOUR FEEDBACK</h2>
+        <h3>Please send your feedback so that we can improve ourselves.</h3>
+        <a class = "mail" href = "mailto: eventplanner@gmail.com">Send Mail</a>
+
+    </div>
+
+    
+</body>
+
+    <script src="script.js"></script>
+    
+</html>

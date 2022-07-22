@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+
+
+
+
+
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;   
+}
+
+body{
+    background-image:url(bg2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+
+header{
+    position: fixed;
+    top:0; left: 0; right:0; 
+    background: rgba(246, 248, 214, 0.736);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px; 
+  }
+
+h1{
+  
+    color: rgb(0, 0, 0);
+    font-family: 'Satisfy','Nunito','Varela Round', sans-serif;
+    font-size: 50px;
+    padding-left: 6px;
+}
+
+#eofevent{
+    color: rgba(46, 161, 237, 0.923);
+}
+
+#pofplanner{
+    color: rgba(217, 70, 188, 0.858);
+}
+
+header .navbar a{
+
+    color:rgb(5, 5, 5);
+    font-size:25px;
+    margin:35px;
+    font-family:'Nunito','Varela Round', sans-serif ;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+header .navbar a:hover{
+    color:rgb(222, 60, 122);
+  }
+
+header .navbar .log-out-button{
+    
+    font-family:'Nunito','Varela Round', sans-serif ;
+    font-weight: 700;
+    font-size: 25px;
+    width: 140px;
+    height: 40px;
+    position: relative;
+    background: rgba(255, 255, 255, 0);
+
+}
+
+.search-btn{
+    font-size:28px;
+    background: none;
+    cursor: pointer;
+}
+
+header .search-btn i:hover{
+  cursor: pointer;
+  color:rgb(222, 60, 122); 
+}
+  
+header .search-bar-container{
+    width:250px;
+    height: 32px;
+    padding:5px;
+    border: 1px solid rgba(46, 46, 46, 0.849);
+    font-size: 18px;
+    font-family:'Nunito','Varela Round', sans-serif  ;
+    font-weight: 700;
+    color: black;
+    border-radius: 8px;
+}
+  
+
+.contact-info{
+    font-size: 20px;
+    font-family:'Nunito','Varela Round', sans-serif;
+    text-align: center;
+    padding: 20px;
+    line-height: 32px;
+    position: relative;
+    top: 140px;
+    color: rgba(255, 255, 255, 0.915);
+    font-weight: 700;
+    background-color: rgba(0, 0, 0, 0.667);
+    border-radius: 20px;
+    width: 500px;
+    margin: auto;
+
+}
+
+h3{
+    color: rgb(213, 213, 213);
+}
+.contact-info p{
+    color: rgb(233, 223, 182);
+}
+
+.feedback{
+    font-size: 20px;
+    font-family:'Nunito','Varela Round', sans-serif;
+    text-align: center;
+    position: relative;
+    padding: 20px;
+    line-height: 32px;
+    top: 140px;
+    color: rgba(255, 255, 255, 0.915);
+    font-weight: 700;
+    background-color: rgba(0, 0, 0, 0.667);
+    border-radius: 20px;
+    width: 500px;
+    margin: auto;
+    margin-top: 10px;
+
+}
+
+
+.feedback a{
+    color: rgb(10, 10, 10);
+    background-color: rgb(233, 223, 182);
+    border-radius: 18px;
+    padding: 6px;
+    position: relative;
+    top: 10px;
+    bottom: 10px;
+
+}
+

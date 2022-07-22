@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-firestore.js"></script>
+  <link rel="stylesheet" href="signup.css">
+  <title>Event Planner</title>
+</head>
+
+<body>
+  <div class="full-page">
+    <h1><span id="eofevent">E</span>vent &nbsp;<span id="pofplanner"> P</span>lanner</h1>
+    <h3>A place to oraganise and execute your events perfectly</h3>
+      <div class="signup-form-container">  
+        <form action="signup form"class="signup-form">
+          <h2>SIGN-UP</h2>
+          <div class="email">
+            <p><i class="fa fa-user"></i>Email-Id</p>
+            <input type="email" class="box" id="email" placeholder="Your Email Id">
+          </div>
+          <div class="username"> 
+            <p><i class="fa fa-pencil"></i>Username</p>
+            <input type="username" class="box" id="username" placeholder="Username">
+          </div>
+          <div class="password">
+            <p><i class="fa fa-lock"></i>Password</p>
+            <input type="password" class="box" id="password" placeholder="Create Password">
+          </div>
+          <div class="confirm password">
+            <p><i class="fa fa-lock"></i>Confirm Password</p>
+           
+           <input type="password" class="box" id="confirmpassword" placeholder="Confirm your Password">
+           
+          </div>
+    
+      
+       <button class="button" type="button" title="signup" onclick="signUp()">Sign Up</button>
+        <br> 
+        <p class="account">Already have an account? <a href="./loginpage.html">Login</a></p>
+        </form>
+        </div>
+      </div>
+  </div>
+  
+  
+<script src="script.js"></script>
+
+</body>
+</html>
+  
+
+
+

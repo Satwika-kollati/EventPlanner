@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="creategroup.css">
+    <title>Event Planner</title>
+</head>
+<body>
+    <header>
+       
+        <h1 class="logo"><span id="eofevent">E</span>vent<span id="pofplanner"> P</span>lanner</h1>
+     
+         <div class="navbar">
+          <a href="homepage.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+          <a href="groupsinfo.html">Group Page</a>
+          <button class="log-out-button" type="button" title="signOut" onclick="signOut()">Log Out</button>
+         </div>
+     
+         <form action="search-bar" class="search-bar">
+             <input type="text" class="search-bar-container" placeholder="Search Here..." name="search">
+             <button class="search-btn"type="submit"><i class="fa fa-search" ></i></button>
+         </form>
+  
+     </header>
+
+     <div class="create-group-container">  
+        <form class="create-group-form">
+          <h2>CREATE GROUP</h2>
+          <h3>Fill the below details of the event</h3>
+          <div class="username">
+            <p><i class="fa fa-street-view"></i> Username</p>
+            <input type="text" class="box" id="username" placeholder="Your Username">
+          </div>
+          <div class="event-type">
+            <p><i class="fa fa-birthday-cake"></i> Type of Event</p>
+            <input type="text" class="box" id="event-type" placeholder="Birthday,Marriage....">
+          </div>
+          <div class="event-celebrator">
+            <p><i class="fa fa-child"></i> Event Celebrator Name</p>
+            <input type="text" class="box" id="event-celebrator" placeholder="Who is celebrating?">
+          </div>
+          <div class="password">
+            <p><i class="fa fa-lock"></i> Password</p>
+            <input type="password" class="box" id="password" placeholder="Give a Password to your Group">
+          </div>
+          <div class="date">
+            <p><i class="	fa fa-calendar"></i> Date and Time of the event</p>
+            <input type="" class="box" id="date" placeholder="Ex: April 18 2022 15:35:30 (afternoon 3:35 and 30 secs)">
+          </div>
+
+
+       <button class="creategroup-button" type="submit">Create Group</button>
+        <br> 
+        
+        </form>
+      </div>
+    
+</body>
+<script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-firestore.js"></script>
+
+      <script src="creategroup.js"></script>
+    
+</html>

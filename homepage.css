@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+
+
+
+
+
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;   
+}
+
+body{
+    background-image:url(bg2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+  header{
+    position: fixed;
+    top:0; left: 0; right:0; 
+    background: rgba(246, 248, 214, 0.736);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px; 
+  }
+
+h1{
+  
+    color: rgb(0, 0, 0);
+    font-family: 'Satisfy','Nunito','Varela Round', sans-serif;
+    font-size: 50px;
+    padding-left: 6px;
+}
+
+#eofevent{
+    color: rgba(46, 161, 237, 0.923);
+}
+
+#pofplanner{
+    color: rgba(217, 70, 188, 0.858);
+}
+
+header .navbar a{
+
+    color:rgb(5, 5, 5);
+    font-size:25px;
+    margin:35px;
+    font-family:'Nunito','Varela Round', sans-serif ;
+    font-weight: 700;
+     text-decoration: none;
+  }
+
+header .navbar a:hover{
+  
+    color:rgb(222, 60, 122);
+  }
+
+header .navbar .log-out-button{
+    
+    font-family:'Nunito','Varela Round', sans-serif ;
+    font-weight: 700;
+    font-size: 25px;
+    width: 140px;
+    height: 40px;
+    position: relative;
+    background: rgba(255, 255, 255, 0);  
+  }
+
+.search-btn{
+    font-size:28px;
+    background: none;
+    cursor: pointer;
+}
+
+header .search-btn i:hover{
+  cursor: pointer;
+  color:rgb(222, 60, 122); 
+}
+  
+header .search-bar-container{
+    width:250px;
+    height: 32px;
+    padding:5px;
+    border: 1px solid rgba(46, 46, 46, 0.849);
+    font-size: 18px;
+    font-family:'Nunito','Varela Round', sans-serif  ;
+    font-weight: 700;
+    color: black;
+    border-radius: 8px;
+}
+  
+
+.content{
+    font-size: 40px;
+    font-family:'Nunito','Varela Round', sans-serif;
+    text-align: center;
+    position: relative;
+    top: 140px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+
+}
+
+.container{
+   position: relative;
+   top: 230px;
+   text-align: center;
+}
+
+.button{
+ height: 180px;
+ width: 250px;
+ background: rgba(246, 244, 245, 0.364);
+ border: 3px solid rgba(52, 52, 52, 0.801);
+ border-radius: 12px;
+ box-shadow: 2px 3.5px rgba(72, 72, 72, 0.566);
+ margin: 40px;
+ font-size: 20px;
+ font-family:'Nunito','Varela Round', sans-serif;
+ line-height: 35px;
+ font-weight: 900;
+
+}
+
+.button a{
+  color: rgba(14, 14, 14, 0.896);
+}
+
+.button a:hover{
+  cursor: pointer;
+  color:rgb(222, 60, 122);
+}
+
+.container .button:hover{
+  cursor: pointer;
+  
+}
