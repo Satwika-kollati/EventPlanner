@@ -34,7 +34,7 @@ function signUp() {
 
       alert("Signed Up with " + email.value);
 
-      window.location.assign('../html/homepage.html');
+      window.location.assign('homepage.html');
 
     }).catch((e) => {
       alert(e.message);
@@ -56,7 +56,7 @@ function signUp() {
      
        console.log(user);
        
-       window.location.assign('../html/homepage.html');
+       window.location.assign('homepage.html');
      
      });
       promise.then(u =>{
@@ -68,7 +68,7 @@ function signUp() {
     auth.signOut().then(function() {
 
       alert("Signed Out");
-      window.location.assign('../index.html');
+      window.location.assign('loginpage.html');
   
     });
   } 
