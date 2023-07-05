@@ -50,7 +50,9 @@ const firebaseConfig = {
     a.appendChild(linkText);
     a.title = "Go to Group Page";
     a.id = groupId;
+<<<<<<< HEAD
     a.href = "../grouppage.html";
+>>>>>>> parent of 9f8cb3a (updates file paths)
     
     console.log(a.id)
   

@@ -57,7 +57,9 @@ const firebaseConfig = {
 
 
                 joingroupform.reset();
+<<<<<<< HEAD
                 window.location.assign('../grouppage2.html');
+>>>>>>> parent of 9f8cb3a (updates file paths)
 
                 }
                 
