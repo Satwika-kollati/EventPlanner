@@ -34,7 +34,7 @@ function signUp() {
 
       alert("Signed Up with " + email.value);
 
-      window.location.assign('../html/homepage.html');
+      window.location.assign('../homepage.html');
 
     }).catch((e) => {
       alert(e.message);
@@ -56,7 +56,7 @@ function signUp() {
      
        console.log(user);
        
-       window.location.assign('../html/homepage.html');
+       window.location.assign('../homepage.html');
      
      });
       promise.then(u =>{
