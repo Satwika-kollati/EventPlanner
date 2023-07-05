@@ -68,7 +68,7 @@ function signUp() {
     auth.signOut().then(function() {
 
       alert("Signed Out");
-      window.location.assign('loginpage.html');
+      window.location.assign('index.html');
   
     });
   } 
