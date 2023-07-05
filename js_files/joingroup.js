@@ -57,7 +57,7 @@ const firebaseConfig = {
 
 
                 joingroupform.reset();
-                window.location.assign('grouppage2.html');
+                window.location.assign('../html/grouppage2.html');
 
                 }
                 
