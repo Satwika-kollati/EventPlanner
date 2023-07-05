@@ -50,7 +50,7 @@ const firebaseConfig = {
     a.appendChild(linkText);
     a.title = "Go to Group Page";
     a.id = groupId;
-    a.href = "../grouppage.html";
+    a.href = "grouppage.html";
     
     console.log(a.id)
   
