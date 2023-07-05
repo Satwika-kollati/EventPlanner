@@ -50,8 +50,7 @@ const firebaseConfig = {
   }).then(() => {
   
        groupform.reset();
-<<<<<<< HEAD
-       window.location.assign('../groupsinfo.html');
+       window.location.assign('groupsinfo.html');
     }).catch(err => {
        console.log(err);
     });
